@@ -25,6 +25,10 @@ public class AuthenticationPage extends AbstractPage {
     @FindBy(xpath = "//*[@id='email_create']")
     public WebElement emailAddreesField;
 
+    @NameOfElement("Create an account")
+    @FindBy(xpath = "//*[@id='SubmitCreate']")
+    public WebElement createAnAccountButton;
+
     public void loadPage() {
         Driver.getWebDriver().get(URL);
         Assert.assertTrue(header.isDisplayed());
