@@ -8,8 +8,8 @@
   Сценарий: E-3 Verify the ability to register
     Допустим я на странице "Authentication"
     И я заполнил поле "Email address" значением "sensesnet@gmail.com"
-    И я нажимаю на кнопку "Create an account"
-    То откроется страница "Create an account" на странице регистрации
+    И я нажимаю на кнопку "Create an account" на странице "Authentication"
+    То откроется страница "Create an account"
     И я заполнил все необходимые поля в блоке "Your personal information":
       | title | first_name | last_name | email               | password | date_of_birth |
       | Mr    | Kirill     | Degtyarev | sensesnet@gmail.com | zvenz13  | 12.02.87      |

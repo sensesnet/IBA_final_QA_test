@@ -27,7 +27,7 @@ public class ContactUsSteps extends PreCondition{
     public void яПрикрепилФайлВПоле(String arg0, String arg1) throws Throwable {
     }
 
-    @И("^я нажимаю на кнопку \"([^\"]*)\"$")
+    @И("^я нажимаю на кнопку \"([^\"]*)\" на странице \"ContactUs\"$")
     public void яНажимаюНаКнопку(String buttonName) throws Throwable {
         getContactUsPage().pressButton(buttonName);
     }

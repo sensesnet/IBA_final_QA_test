@@ -59,6 +59,4 @@ public abstract class AbstractPage
         throw new IllegalArgumentException("ERROR: there is no such element with name " + elementName + " at page " + this.getClass().getName());
     }
 
-
-
 }

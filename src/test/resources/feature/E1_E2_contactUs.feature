@@ -12,7 +12,7 @@
       | subject_heading | email_address       | order_reference | message             |
       | Webmaster       | sensesnet@gmail.com | 123Qw           | It is test message! |
     И я прикрепил "message.txt" файл в поле "Attach File"
-    И я нажимаю на кнопку "Send"
+    И я нажимаю на кнопку "Send" на странице "ContactUs"
     То отобразится сообщение об успешной отправке:
     """
     Your message has been successfully sent to our team.
@@ -23,7 +23,7 @@
     И я заполнил все необходимые поля:
       | subject_heading | email_address       | order_reference | message |
       | Webmaster       | sensesnet@gmail.com | 123Qw           |         |
-    И я нажимаю на кнопку "Send"
+    И я нажимаю на кнопку "Send" на странице "ContactUs"
     То отобразится сообщение об неуспешной отправке:
     """
     The message cannot be blank.
